@@ -10,24 +10,23 @@ module.exports = function (app) {
             photo:"",
             friendDif: Infinity
         };
-        
+        console.log(req.body);
 
         var userData = req.body;
         var userScore = userData.scores;
         var totalDif;
 
-        for(var i=0; i < friends.length; i++) {
+        for (var i=0; i < friends.length; i++) {
             var currentFriend = friends[i];
             totalDif = 0;
             console.log(currentFriend.name);
 
-            for(var j=0; j < currentFriend.scores.length; j++) {
+            for (var j=0; j < currentFriend.scores.length; j++) {
                 var currentFriendScore = currentFriend.scores[j];
                 var currentUserScore = userScore[j];
 
                 totalDif += Math.abs(parseInt(currentUserScore)-
                  parseInt(currentFriendScore));
-                
             }
             if (totalDif <= bestFriend.friendDif) {
                 bestFriend.name = currentFriend.name;
@@ -35,7 +34,7 @@ module.exports = function (app) {
                 bestFriend.friendDif = totalDif;
             }
         }
-        friends.push(userData)
+        friends.push(userData);
         res.json(bestFriend);
     });
 
