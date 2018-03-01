@@ -2,7 +2,7 @@ var friends = [
 
     {
         "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://metrouk2.files.wordpress.com/2018/02/692783492.jpg?w=748&h=420&crop=1",
         "scores": [
             5,
             1,
@@ -18,7 +18,7 @@ var friends = [
     },
     {
         "name": "Derek",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "http://www.catster.com/wp-content/uploads/2017/08/Hairless-cat.jpg",
         "scores": [
             4,
             3,
@@ -34,7 +34,7 @@ var friends = [
     },
     {
         "name": "Priscilla",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejUuLVpp1bpqc4xfzmFKQaQGkKG_LY-PrneVoW_KeF8nK2Ia3",
         "scores": [
             4,
             3,
@@ -50,7 +50,7 @@ var friends = [
     },
     {
         "name": "Ray",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a_400x400.jpeg",
         "scores": [
             1,
             5,
@@ -66,7 +66,7 @@ var friends = [
     },
     {
         "name": "Sara",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "http://1.bp.blogspot.com/-l1r_ctHKtig/VP-8yjjz38I/AAAAAAAALSE/mIrHOlrZw-U/s1600/Cat.jpg",
         "scores": [
             2,
             2,
@@ -82,7 +82,7 @@ var friends = [
     },
     {
         "name": "Beth",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "http://www.royalcanin.ca/~/media/Royal-Canin-Canada/Product-Categories/cat-adult-landing-hero.ashx",
         "scores": [
             4,
             2,
