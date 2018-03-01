@@ -6,8 +6,8 @@ module.exports = function (app) {
     });
     app.post("/api/friends", function (req, res) {
         var bestFriend = {
-            name:"",
-            photo:"",
+            name: "",
+            photo: "",
             friendDif: Infinity
         };
         console.log(req.body);
@@ -16,17 +16,17 @@ module.exports = function (app) {
         var userScore = userData.scores;
         var totalDif;
 
-        for (var i=0; i < friends.length; i++) {
+        for (var i = 0; i < friends.length; i++) {
             var currentFriend = friends[i];
             totalDif = 0;
             console.log(currentFriend.name);
 
-            for (var j=0; j < currentFriend.scores.length; j++) {
+            for (var j = 0; j < currentFriend.scores.length; j++) {
                 var currentFriendScore = currentFriend.scores[j];
                 var currentUserScore = userScore[j];
 
-                totalDif += Math.abs(parseInt(currentUserScore)-
-                 parseInt(currentFriendScore));
+                totalDif += Math.abs(parseInt(currentUserScore) -
+                    parseInt(currentFriendScore));
             }
             if (totalDif <= bestFriend.friendDif) {
                 bestFriend.name = currentFriend.name;
