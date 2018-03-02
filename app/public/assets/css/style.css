@@ -1,0 +1,74 @@
+body#body {
+    background-color: bisque;
+}
+
+button.btn {
+    border: solid orange;
+    background-color: orange;
+    margin-bottom: 3%;
+    text-decoration-color: black;
+}
+
+button.btn:hover {
+    background-color: midnightblue;
+    color: orange;
+}
+
+div.jumbotron {
+    background-image: url("../images/survey.jpg");
+    background-size: cover;
+}
+
+footer.footer {
+    background-color: midnightblue;
+    color: orange;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    color: orange;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+h1#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    /* margin-top: 5%; */
+    text-align: center;
+}
+
+h3#words {
+    color: blanchedalmond;
+    margin-bottom: -5%;
+    margin-left: -2%;
+}
+
+.input {
+    margin-bottom: 3%;
+}
+
+input.form-control {
+    border-radius: .5em;
+    color: orange;
+}
+
+.options {
+    color: orange;
+    margin-bottom: 5%;
+}
+
+.ques {}
+
+.row1 {
+    display: inline-block;
+}
+
+.row2 {
+    display: inline-block;
+    float: right;
+}
