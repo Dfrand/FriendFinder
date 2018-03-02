@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
+var path = require('path');
+
 
 var PORT = process.env.PORT || 3000;
 
@@ -24,6 +26,8 @@ app.use(bodyParser.text({
     type: 'text/html'
 }));
 
+// Expose the public directory to access CSS files
+app.use(express.static(path.join(__dirname, './app/public')));
 
 // router
 require('./app/routing/apiRoutes.js')(app);
