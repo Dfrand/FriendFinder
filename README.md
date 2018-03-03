@@ -36,8 +36,7 @@ A fullstack application that takes in the input from a 10 question survey and ma
 
 ***
 ## Heroku
-
-Try it here now-[FriendFinder](https://powerful-bayou-27316.herokuapp.com/)
+You can try it out now at [Friend Finder](https://powerful-bayou-27316.herokuapp.com/).
 
 ***
 ## Contributors: 
