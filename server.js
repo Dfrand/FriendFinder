@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
-var favicon = require('serve-favicon');
+// var favicon = require('serve-favicon');
 var path = require('path');
 
 
@@ -9,7 +9,7 @@ var path = require('path');
 var PORT = process.env.PORT || 3000;
 
 // Node.js middleware for serving a favicon.
-app.use(favicon(path.join(__dirname, 'app/public/assets/images', 'friendsFavicon.ico')));
+// app.use(favicon(path.join(__dirname, 'app/public/assets/images', 'friendsFavicon.ico')));
 
 // create application/x-www-form-urlencoded parser
 app.use(bodyParser.urlencoded({
