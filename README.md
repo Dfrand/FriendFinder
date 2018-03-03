@@ -10,7 +10,8 @@ A fullstack application that takes in the input from a 10 question survey and ma
 
  - Clone repo.
  - Run 'npm install' in command line.
- - Run 'node index.js' to get started playing the game.
+ - Run 'node server.js' to get started.
+ - Fill out Survey and find out who is your New Bestie! 
 
 ***
 ## Technologies Used:
