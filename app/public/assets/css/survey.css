@@ -19,7 +19,7 @@ div.jumbotron {
     background-size: cover;
 }
 
-footer.footer {
+footer.footer, .push {
     background-color: midnightblue;
     color: orange;
     padding: 1%;
@@ -36,14 +36,13 @@ footer.footer {
 }
 
 h1#title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 5em;
-    /* margin-top: 5%; */
     text-align: center;
 }
 
 h3#words {
-    color: blanchedalmond;
+    color: white;
     margin-bottom: -5%;
     margin-left: -2%;
 }
@@ -62,8 +61,6 @@ input.form-control {
     margin-bottom: 5%;
 }
 
-.ques {}
-
 .row1 {
     display: inline-block;
 }
@@ -72,3 +69,4 @@ input.form-control {
     display: inline-block;
     float: right;
 }
+
