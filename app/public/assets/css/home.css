@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+}
+
+body#body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+button.btn {
+    border: solid orange;
+    background-color: orange;
+    margin-bottom: 3%;
+    text-decoration-color: black;
+}
+
+.container {
+    flex: 1 0 auto;
+}
+
+button.btn:hover {
+    background-color: midnightblue;
+    color: orange;
+}
+
+footer.footer {
+    background-color: midnightblue;
+    color: orange;
+    flex-shrink: 0;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    color: orange;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+div.jumbotron {
+    background-image: url("../images/friends.jpeg");
+    background-size: cover;
+    position: relative;
+}
+
+h1#title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4em;
+    margin-top: -5%;
+    margin-bottom: 25%;
+}
+
+h2#slogan {
+    color: white;
+    margin-left: -1%;
+    position: absolute;
+}
