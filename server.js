@@ -1,7 +1,9 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
+var favicon = require('serve-favicon');
 var path = require('path');
+
 
 
 var PORT = process.env.PORT || 3000;
@@ -28,6 +30,9 @@ app.use(bodyParser.text({
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
+
+// Node.js middleware for serving a favicon.
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 // router
 require('./app/routing/apiRoutes.js')(app);
