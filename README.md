@@ -35,6 +35,10 @@ A fullstack application that takes in the input from a 10 question survey and ma
  - `npm install body-parser`
 
 ***
+## Heroku
+You can try it out now at [Friend Finder](https://powerful-bayou-27316.herokuapp.com/).
+
+***
 ## Contributors: 
 
  - Derek Frand [GitHub](https://github.com/Dfrand)
