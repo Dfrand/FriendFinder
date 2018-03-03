@@ -8,6 +8,9 @@ var path = require('path');
 
 var PORT = process.env.PORT || 3000;
 
+// Node.js middleware for serving a favicon.
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+
 // create application/x-www-form-urlencoded parser
 app.use(bodyParser.urlencoded({
     extended: true
@@ -30,9 +33,6 @@ app.use(bodyParser.text({
 
 // Expose the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
-
-// Node.js middleware for serving a favicon.
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 // router
 require('./app/routing/apiRoutes.js')(app);
